@@ -1,0 +1,27 @@
+.calculator{
+    padding:15px;
+    display:grid;
+    grid-template-columns: repeat(4,60px);
+} 
+input{
+    grid-column: span 4;
+    height:70px;
+    background-color: palevioletred;
+    text-align: end;
+    font-size: 30px;
+    
+    
+}
+
+button{
+    height:70px;
+    width:61px;
+    background-color: rgba(149, 150, 149, 0.582);
+    font-size: 15px;
+    
+}
+
+button:active{
+    background-color: white;
+}
+
